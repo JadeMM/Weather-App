@@ -1,0 +1,64 @@
+h2 {
+  margin: 0;
+  padding:20px 30px;
+  background-image: linear-gradient(to right, rgb(0, 0, 80) , blue);
+  color: white;
+}
+
+.dayCardDiv {
+  margin: 10px 5px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  --hColor: gray;
+}
+
+.dayCardDiv:hover {
+  background-color: aliceblue;
+  --hColor: rgb(65, 65, 65);
+  color:rgb(65, 65, 65);
+}
+
+.dayCardHeader {
+  margin: 0;
+  color: var(--hColor);
+}
+
+.highSpan, .lowSpan {
+  margin: 15px 5px;
+}
+
+.dayDiv {
+  border: 1px solid rgb(202, 202, 202);
+  margin: 20px;
+}
+
+.dayHeader {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: rgb(202, 202, 202);
+  color: rgb(39, 39, 39);
+}
+
+.headerBack {
+  float: right;
+  font-size: smaller;
+  font-weight: lighter;
+  background-color: rgb(202, 202, 202);
+  border: none;
+  padding: 5px 10px;
+}
+
+.headerBack:hover {
+  float: right;
+  font-size: smaller;
+  font-weight: lighter;
+  background-color: rgb(223, 223, 223);
+  border-radius: 3px;
+}
+
+.dayBodyDiv {
+  margin: 20px;
+}
