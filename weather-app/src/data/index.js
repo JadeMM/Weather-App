@@ -4,48 +4,55 @@ export const weatherData = [
         date: '3-20-20',
         high: 58,
         low: 36,
-        sky: 'mostly sunny'
+        sky: 'mostly sunny',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Saturday',
         date: '3-21-20',
         high: 56,
         low: 36,
-        sky: 'mostly sunny'
+        sky: 'mostly sunny',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Sunday',
         date: '3-22-20',
         high: 57,
         low: 41,
-        sky: 'mostly sunny'
+        sky: 'mostly sunny',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Monday',
         date: '3-23-20',
         high: 48,
         low: 39,
-        sky: 'showers'
+        sky: 'showers',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Tuesday',
         date: '3-24-20',
         high: 46,
         low: 37,
-        sky: 'showers'
+        sky: 'showers',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Wednesday',
         date: '3-25-20',
         high: 50,
         low: 38,
-        sky: 'partly cloudy'
+        sky: 'partly cloudy',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     },
     {
         day: 'Thursday',
         date: '3-26-20',
         high: 47,
         low: 40,
-        sky: 'showers'
+        sky: 'showers',
+        hourly: [36, 42, 45, 47, 48, 49, 48, 48, 49, 50, 51, 53, 58, 58, 53, 50, 48, 46, 41, 40, 38, 36, 36]
     }
 ];

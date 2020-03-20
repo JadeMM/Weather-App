@@ -3,6 +3,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { changePage } from '../redux/actions';
 import WeekView from './WeekView';
+import TempGraph from './TempGraph';
 
 function DayView({dayData, updatePage}) {
     const degrees = <span>&#176;</span>;
@@ -18,9 +19,9 @@ function DayView({dayData, updatePage}) {
                 <button className='headerBack' onClick={() => goBack()}>Back</button>
             </h3>
             <div className='dayBodyDiv'>
+                <TempGraph dayData={dayData}/>
                 <span className='highSpan'>{dayData.high}{degrees}</span>
                 <span className='lowSpan'>{dayData.low}{degrees}</span>
-                <p>Additional information</p>
             </div>
         </div>
     )
